@@ -1,0 +1,50 @@
+{
+  "title": "Zoe basics",
+  "description": "Basic scenario to discover zoe features",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare the environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Initialize zoe configuration",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create topics",
+        "text": "step3.md"
+      },
+      {
+        "title": "Reading data from topics",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "docker-compose.yml",
+          "target": "assets"
+        },
+        {
+          "file": "data.json",
+          "target": "assets"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
