@@ -1,8 +1,8 @@
-Zoe is now configured enough to start interacting with our local Kafka cluster.
+We can now start using zoe to interact with our local Kafka cluster.
 
 ## Create the cat-facts topic
 
-Execute the following command to create the `cat-facts` topic: `zoe topics create cat-facts --partitions 5`{{execute}}.
+Execute the following command to create a topic named `cat-facts`: `zoe topics create cat-facts --partitions 5`{{execute}}.
 
 Ensure the topic is created: `zoe topics list`{{execute}}.
 

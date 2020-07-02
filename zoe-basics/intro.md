@@ -1,6 +1,6 @@
 Zoe is a powerful command line tool that makes interacting with Kafka easy and intuitive.
 
-This scenario walks you through the most basic featres of zoe. We will spin up a single node kafka cluster and then interact with it using zoe.
+This scenario walks you through the most basic features of zoe. We will spin up a single node kafka cluster and then interact with it using zoe.
 
 ## What you will learn
 

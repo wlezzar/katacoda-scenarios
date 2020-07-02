@@ -1,6 +1,6 @@
 Zoe relies on central configuration files to know about the different clusters it can interact with. These files are by default stored in: `$HOME/.zoe/config`.
 
-Zoe's repository contains a good starter config file that we can use in this tutorial. To initialize zoe's configuration with this directory, execute:
+First step is to provide zoe with a configuration file it can use to interact with our local kafka cluster. Zoe's repository contains a good starter config file that we can use here. To initialize zoe's configuration with this directory, execute:
 
 ```
 zoe config init \
