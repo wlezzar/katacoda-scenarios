@@ -5,9 +5,9 @@ The first step of this scenario is to prepare the environment by:
 
 ## Spin up Kafka
 
-To spin up a single node kafka cluster, execute: `docker-compose -f assets/docker-compose.yml up -d`{{execute}}
+To spin up a single node kafka cluster, execute: `docker-compose up -d`{{execute}}
 
-Wait until the cluster is up and ready: `docker-compose -f assets/docker-compose.yml ps`{{execute}}
+Wait until the cluster is up and ready: `docker-compose ps`{{execute}}
 
 ## Install Zoe
 

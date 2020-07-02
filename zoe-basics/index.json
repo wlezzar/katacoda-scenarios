@@ -32,11 +32,11 @@
       "host01": [
         {
           "file": "docker-compose.yml",
-          "target": "assets"
+          "target": "."
         },
         {
           "file": "data.json",
-          "target": "assets"
+          "target": "."
         }
       ]
     }

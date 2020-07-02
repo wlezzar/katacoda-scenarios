@@ -14,9 +14,9 @@ Zoe can use the table output in all the commands.
 
 This environment provides a json file containing a sample dataset coming from the Cat Facts API.
 
-You can inspect this file using: `head -n 20 assets/data.json`{{execute}}.
+You can inspect this file using: `head -n 20 data.json`{{execute}}.
 
-To insert this data into kafka execute the following command: `zoe -o table topics produce --topic cat-facts --from-file assets/data.json`{{execute}}.
+To insert this data into kafka execute the following command: `zoe -o table topics produce --topic cat-facts --from-file data.json`{{execute}}.
 
 ## Next step
 
