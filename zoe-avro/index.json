@@ -1,0 +1,54 @@
+{
+  "title": "Zoe with Avro (in progress)",
+  "description": "Scenario showing how to use zoe with Avro data",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare the environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Initialize zoe configuration",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create topics",
+        "text": "step3.md"
+      },
+      {
+        "title": "Reading data from topics",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "docker-compose.yml",
+          "target": "."
+        },
+        {
+          "file": "data.json",
+          "target": "."
+        },
+        {
+          "file": "schema.avdl",
+          "target": "."
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
