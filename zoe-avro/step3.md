@@ -10,11 +10,11 @@ Notice that we have used the topic alias `input` and zoe replaced it with the re
 
 ## Create the avro schema for the cat facts
 
-In this guide, we are gonna a sample data set downloaded from the Cat Facts API. We have also create for the purpose of this guide an avro schema that describes this data. You can take a look at it using: `cat schema.avdl`{{execute}}.
+In this guide, we are going to use a sample data set downloaded from the Cat Facts API. We have also create for the purpose of this guide an avro schema that describes this data. You can take a look at this schema using: `cat schema.avdl`{{execute}}.
 
-Register this schema using the following command:
+Register the schema using the following command:
 
-```bash
+```
 # deploy the cat facts schema from the 
 zoe schemas deploy \
   --avdl \
@@ -23,16 +23,12 @@ zoe schemas deploy \
   --strategy topic \
   --topic input \
   --suffix value
-```
-{{execute}}.
+```{{execute}}.
 
+Ensure our schema is successfully registered by listing the topics from the schema registry: `zoe --silent -o table schemas list`{{execute}}.
 
-This environment provides a json file containing a sample dataset coming from the Cat Facts API.
-
-You can inspect this file using: `head -n 20 data.json`{{execute}}.
-
-To insert this data into kafka execute the following command: `zoe -o table topics produce --topic cat-facts --from-file data.json`{{execute}}.
+You can also describe the registered schema using: Describe the schema using: `zoe --silent -o table schemas describe input-events-topic-value`{{execute}}.
 
 ## Next step
 
-In the next step, we will see how to read data with Zoe.
+In the next step, we will produce some avro data into the topic.

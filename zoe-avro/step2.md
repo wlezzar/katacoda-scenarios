@@ -15,6 +15,6 @@ If you want some explanations about this configuration, you can take a look at [
 
 You can also check that zoe is now aware of this configuration file by executing: `zoe -o table config clusters list`{{execute}}.
 
-Notice that we have defined a topic alias `input` that points to the real topic name `input-events-topic`. Topic aliases allows us to not have to remember long topic names. In all the commands involving topics, we can either use the alias or the real topic name. We can also (optionally) associate an avro schema subject name to the alias to not have to mention it when we want to produce avro data into the topic.
+Notice that we have defined a topic alias `input` that points to the real topic name `input-events-topic`. We can use topic aliases and real topic names interchangeably in most of the commands involving topics.
 
 Everything looks good! You can continue to the next step!
