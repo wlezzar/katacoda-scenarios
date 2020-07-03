@@ -1,0 +1,16 @@
+{
+  "title": "Zoe: The missing Kafka companion",
+  "description": "Learn how to use zoe to easily interact with Kafka",
+  "courses": [
+    {
+      "course_id": "zoe-basics",
+      "title": "Zoe basics",
+      "description": "Basic scenario to discover zoe features"
+    },
+    {
+      "course_id": "zoe-avro",
+      "title": "Zoe with Avro",
+      "description": "Scenario showing how to use zoe with Avro data"
+    }
+  ]
+}
