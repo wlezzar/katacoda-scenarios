@@ -6,7 +6,7 @@ Zoe's repository contains a good starter config file that we can use in this tut
 zoe config init \
     --from git \
     --url https://github.com/adevinta/zoe \
-    --dir docs/guides/avro/config
+    --dir examples/config/avro
 ```{{execute}}
 
 You can inspect this file with: `cat $HOME/.zoe/config/default.yml`{{execute}}.

@@ -1,0 +1,58 @@
+{
+  "title": "Zoe with Kubernetes",
+  "description": "Scenario to discover how to use Zoe with the Kubernetes Runner",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare the environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Configuring zoe",
+        "text": "step2.md"
+      },
+      {
+        "title": "Interacting with the cluster",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "resources/broker-deployment.yaml",
+          "target": "resources"
+        },
+        {
+          "file": "resources/broker-service.yaml",
+          "target": "resources"
+        },
+        {
+          "file": "resources/zookeeper-deployment.yaml",
+          "target": "resources"
+        },
+        {
+          "file": "resources/zookeeper-service.yaml",
+          "target": "resources"
+        },
+        {
+          "file": "data.json",
+          "target": "."
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
